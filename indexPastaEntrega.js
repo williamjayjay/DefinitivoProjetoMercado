@@ -40,17 +40,7 @@ class Entrega extends Component{
      this.enviar = this.enviar.bind(this)
 
  
-     
-      let config = {
-        apiKey: "AIzaSyCIrlS_enEKQn6oiCxTyFuuQu6BVq3363g",
-        authDomain: "meuapp-ccb25.firebaseapp.com",
-        databaseURL: "https://meuapp-ccb25.firebaseio.com",
-        projectId: "meuapp-ccb25",
-        storageBucket: "meuapp-ccb25.appspot.com",
-        messagingSenderId: "904396632718",
-        appId: "1:904396632718:web:a4931fdb66cc6b68e10fdf",
-        measurementId: "G-9G6C5NYD3Q"
-      };
+
       // Initialize Firebase
       if (!firebase.apps.length) {
          firebase.initializeApp(config) }
